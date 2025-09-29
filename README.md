@@ -13,12 +13,23 @@ When a post is clicked, a dialog window opens showing detailed information such 
 6. JSONPlaceholder API
 
 ## 📂 Project structure
+```
 .
 ├── components/         # UI components (PostItem, PostScreen, DialogWindow)
 ├── model/              # Data model (Post) and ViewModel
 ├── network/            # ApiService + RetrofitInstance
 ├── ui/theme/           # Material 3 theme
 └── MainActivity.kt     # Entry point
+```
+
+## 🖼️ Screens (examples)
+
+📋 Post list
+<img width="434" height="1053" alt="image" src="https://github.com/user-attachments/assets/270b89d0-b14d-42d8-8fd9-0c91c5301052" />
+
+💬 Post details in a dialog
+<img width="434" height="1053" alt="image" src="https://github.com/user-attachments/assets/3da3d14d-1e68-4d38-8004-e83aba1b2c85" />
+
 
 ## 🔧 How to run
 
