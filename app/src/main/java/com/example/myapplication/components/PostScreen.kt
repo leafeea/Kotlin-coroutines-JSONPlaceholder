@@ -12,8 +12,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 
 
 @Composable
-fun PostScreen(viewModel: PostViewModel = viewModel()) {
-    val posts = viewModel.posts.value
+fun PostScreen(viewModel: PostViewModel = PostViewModel()) {
+    val posts = viewModel.items.value
 
     val openDialogForPost = remember { mutableStateOf<Int?>(null) }
 
